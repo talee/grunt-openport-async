@@ -1,6 +1,6 @@
 {
   "name": "grunt-openport-async",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Gets next open port for grunt config i.e. load-grunt-config",
   "main": "openport-async.js",
   "scripts": {
