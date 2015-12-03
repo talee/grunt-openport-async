@@ -25,6 +25,9 @@
     "url": "https://github.com/talee/grunt-openport-async/issues"
   },
   "homepage": "https://github.com/talee/grunt-openport-async#readme",
+  "engines": {
+    "node": ">=4.0.0"
+  },
   "devDependencies": {
     "grunt": "^0.4.5",
     "jit-grunt": "^0.9.1",
