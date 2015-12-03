@@ -3,6 +3,12 @@
 Gets next open port async so grunt config tasks i.e. `load-grunt-config` can
 occur after an open port is available. Can be called multiple times.
 
+## Install
+
+	npm i -D grunt-openport-async
+
+## Usage
+
 Typically you'd get the next available port and set it so configs can use it.
 
 	require('grunt-openport-async')(grunt)
@@ -26,6 +32,8 @@ I recommend using `load-grunt-config` to have a clean grunt config setup.
 	require('load-grunt-config')(grunt, {
 	  jitGrunt: true
 	});
+
+## Options
 
 See [openport](https://www.npmjs.com/package/openport) for all the options you
 can pass as the second argument.
