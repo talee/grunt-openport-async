@@ -1,0 +1,41 @@
+{
+  "name": "grunt-openport-async",
+  "version": "0.1.0",
+  "description": "Gets next open port for grunt config i.e. load-grunt-config",
+  "main": "openport-async.js",
+  "scripts": {
+    "test": "grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/talee/grunt-openport-async.git"
+  },
+  "keywords": [
+    "gruntplugin",
+    "openport",
+    "port",
+    "next",
+    "open",
+    "available",
+    "promise"
+  ],
+  "author": "Thomas Lee <tleehoc@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/talee/grunt-openport-async/issues"
+  },
+  "homepage": "https://github.com/talee/grunt-openport-async#readme",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "jit-grunt": "^0.9.1",
+    "load-grunt-config": "^0.19.1",
+    "openport": "0.0.4",
+    "time-grunt": "^1.2.2"
+  },
+  "dependencies": {
+    "openport": "0.0.4"
+  },
+  "peerDependencies": {
+    "grunt": "^0.4.5"
+  }
+}
